@@ -1,0 +1,132 @@
+!SESSION 2019-11-21 18:48:51.294 -----------------------------------------------
+eclipse.buildId=4.4.0.201909171436-RELEASE
+java.version=12.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_IN
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ityagi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ityagi/.eclipse_keyring
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-11-21 18:48:54.099
+!MESSAGE Could not read version file /Users/ityagi/Documents/workspace-spring-tool-suite-4-4.4.0.RELEASE/.metadata/version.ini
+
+!ENTRY org.eclipse.ui.ide 4 4 2019-11-21 18:48:54.101
+!MESSAGE /Users/ityagi/Documents/workspace-spring-tool-suite-4-4.4.0.RELEASE/.metadata/version.ini (Operation not permitted)
+!STACK 0
+java.io.FileNotFoundException: /Users/ityagi/Documents/workspace-spring-tool-suite-4-4.4.0.RELEASE/.metadata/version.ini (Operation not permitted)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:155)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.readWorkspaceVersion(IDEApplication.java:577)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.compareWorkspaceAndIdeVersions(IDEApplication.java:549)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkValidWorkspace(IDEApplication.java:464)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.promptForWorkspace(IDEApplication.java:413)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.checkInstanceLocation(IDEApplication.java:280)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:140)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:660)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1468)
+
+!ENTRY org.eclipse.core.net 1 0 2019-11-21 18:49:22.030
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2019-11-21 18:49:22.901
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-11-21 18:49:22.902
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6556471b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e1897d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2019-11-21 19:02:49.513
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:54.813
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:54.815
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@718198db[org.springframework.tooling.boot.ls:1.11.0.201909171347(id=626)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:54.816
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:54.900
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.355
+!MESSAGE Boot LS startup time from start to initialized: 3530ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.419
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GfKCbZLrisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.422
+!MESSAGE subscribing to classpath changes: sts4.classpath.GfKCbZLr isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.424
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.426
+!MESSAGE subsribers = {sts4.classpath.GfKCbZLr=Send Classpath Notifications(131)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.427
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.427
+!MESSAGE project ppmtool ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.428
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.429
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GfKCbZLr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.429
+!MESSAGE Preparing classpath changed notification ppmtool
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.430
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.437
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.439
+!MESSAGE buffering callback sts4.classpath.GfKCbZLr ppmtool false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.439
+!MESSAGE executing callback sts4.classpath.GfKCbZLr 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:04:58.488
+!MESSAGE executing callback sts4.classpath.GfKCbZLr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:05:38.687
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GfKCbZLr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:05:38.690
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.GfKCbZLr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:05:38.691
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-21 19:05:38.691
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GfKCbZLr => OK
